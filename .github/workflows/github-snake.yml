@@ -18,7 +18,7 @@ jobs:
       - name: Generate snake animation SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: UtshreePandey
+          github_user_name: ushreepandey-lab
           outputs: |
             github-snake.svg?color_snake=#ff6ec7&color_dots=#3a2160,#a855f7,#ff6ec7,#f472b6
 
