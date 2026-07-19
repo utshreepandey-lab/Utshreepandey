@@ -1,0 +1,44 @@
+<svg viewBox="0 0 480 210" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="hlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0f2e"/>
+    <stop offset="100%" stop-color="#2d1654"/>
+  </linearGradient>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .cell { opacity: 0; animation: popCell 0.5s ease-out forwards; }
+    @keyframes popCell { 0% { opacity: 0; transform: scale(0.9); } 100% { opacity: 1; transform: scale(1); } }
+  </style>
+</defs>
+<rect x="0" y="0" width="480" height="210" rx="14" fill="url(#hlBg)" stroke="#4a2b7a" stroke-width="1.5"/>
+<text x="20" y="26" class="sans" font-size="16" font-weight="700" fill="#f5f0ff">Highlights</text>
+
+  <g class="cell" style="animation-delay:0.25s">
+    <rect x="12" y="44" width="224" height="70" rx="10" fill="#221238" stroke="#ff6ec7" stroke-width="1.5"/>
+    <circle cx="40" cy="79" r="14" fill="none" stroke="#ff6ec7" stroke-width="2"/>
+    <text x="40" y="84" text-anchor="middle" class="sans" font-size="14" fill="#ff6ec7">&#9733;</text>
+    <text x="62" y="73" class="sans" font-size="12.5" font-weight="700" fill="#f5f0ff">Design System Architect</text>
+    <text x="62" y="90" class="sans" font-size="10.5" fill="#c9a8ff">3-tier token system</text>
+  </g>
+  <g class="cell" style="animation-delay:0.45s">
+    <rect x="248" y="44" width="224" height="70" rx="10" fill="#221238" stroke="#a855f7" stroke-width="1.5"/>
+    <circle cx="276" cy="79" r="14" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <text x="276" y="84" text-anchor="middle" class="sans" font-size="14" fill="#a855f7">&#9733;</text>
+    <text x="298" y="73" class="sans" font-size="12.5" font-weight="700" fill="#f5f0ff">Redesign Userflows</text>
+    <text x="298" y="90" class="sans" font-size="10.5" fill="#c9a8ff">Research through to dev handoff</text>
+  </g>
+  <g class="cell" style="animation-delay:0.65s">
+    <rect x="12" y="126" width="224" height="70" rx="10" fill="#221238" stroke="#c084fc" stroke-width="1.5"/>
+    <circle cx="40" cy="161" r="14" fill="none" stroke="#c084fc" stroke-width="2"/>
+    <text x="40" y="166" text-anchor="middle" class="sans" font-size="14" fill="#c084fc">&#9733;</text>
+    <text x="62" y="155" class="sans" font-size="12.5" font-weight="700" fill="#f5f0ff">Vibecoding</text>
+    <text x="62" y="172" class="sans" font-size="10.5" fill="#c9a8ff">New-found interest</text>
+  </g>
+  <g class="cell" style="animation-delay:0.8500000000000001s">
+    <rect x="248" y="126" width="224" height="70" rx="10" fill="#221238" stroke="#f472b6" stroke-width="1.5"/>
+    <circle cx="276" cy="161" r="14" fill="none" stroke="#f472b6" stroke-width="2"/>
+    <text x="276" y="166" text-anchor="middle" class="sans" font-size="14" fill="#f472b6">&#9733;</text>
+    <text x="298" y="155" class="sans" font-size="12.5" font-weight="700" fill="#f5f0ff">Career Pivot</text>
+    <text x="298" y="172" class="sans" font-size="10.5" fill="#c9a8ff">Engineering &#8594; Marketing &#8594; Design</text>
+  </g>
+</svg>
