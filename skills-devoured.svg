@@ -1,0 +1,309 @@
+<svg viewBox="0 0 960 170" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="pmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0f2e"/>
+    <stop offset="100%" stop-color="#2d1654"/>
+  </linearGradient>
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .pac-move { animation: pacMove 9.0s linear infinite; }
+    @keyframes pacMove {
+      0%   { transform: translateX(50px); }
+      100% { transform: translateX(900px); }
+    }
+    
+    @keyframes dotEat0 {
+      0% { opacity: 1; }
+      0.5% { opacity: 1; }
+      2.0% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat1 {
+      0% { opacity: 1; }
+      2.3% { opacity: 1; }
+      3.8% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat2 {
+      0% { opacity: 1; }
+      4.9% { opacity: 1; }
+      6.4% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat3 {
+      0% { opacity: 1; }
+      7.4% { opacity: 1; }
+      8.9% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat4 {
+      0% { opacity: 1; }
+      10.0% { opacity: 1; }
+      11.5% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat5 {
+      0% { opacity: 1; }
+      12.6% { opacity: 1; }
+      14.1% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat6 {
+      0% { opacity: 1; }
+      15.2% { opacity: 1; }
+      16.7% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat7 {
+      0% { opacity: 1; }
+      17.8% { opacity: 1; }
+      19.3% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat8 {
+      0% { opacity: 1; }
+      25.6% { opacity: 1; }
+      27.1% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat9 {
+      0% { opacity: 1; }
+      28.1% { opacity: 1; }
+      29.6% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat10 {
+      0% { opacity: 1; }
+      30.7% { opacity: 1; }
+      32.2% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat11 {
+      0% { opacity: 1; }
+      33.3% { opacity: 1; }
+      34.8% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat12 {
+      0% { opacity: 1; }
+      35.9% { opacity: 1; }
+      37.4% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat13 {
+      0% { opacity: 1; }
+      38.5% { opacity: 1; }
+      40.0% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat14 {
+      0% { opacity: 1; }
+      41.1% { opacity: 1; }
+      42.6% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat15 {
+      0% { opacity: 1; }
+      51.4% { opacity: 1; }
+      52.9% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat16 {
+      0% { opacity: 1; }
+      54.0% { opacity: 1; }
+      55.5% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat17 {
+      0% { opacity: 1; }
+      56.6% { opacity: 1; }
+      58.1% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat18 {
+      0% { opacity: 1; }
+      59.2% { opacity: 1; }
+      60.7% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat19 {
+      0% { opacity: 1; }
+      61.8% { opacity: 1; }
+      63.3% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat20 {
+      0% { opacity: 1; }
+      72.1% { opacity: 1; }
+      73.6% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat21 {
+      0% { opacity: 1; }
+      74.7% { opacity: 1; }
+      76.2% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat22 {
+      0% { opacity: 1; }
+      77.3% { opacity: 1; }
+      78.8% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat23 {
+      0% { opacity: 1; }
+      79.9% { opacity: 1; }
+      81.4% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat24 {
+      0% { opacity: 1; }
+      82.5% { opacity: 1; }
+      84.0% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat25 {
+      0% { opacity: 1; }
+      92.9% { opacity: 1; }
+      94.4% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes dotEat26 {
+      0% { opacity: 1; }
+      95.4% { opacity: 1; }
+      96.9% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    
+    @keyframes ghostEat0 {
+      0% { opacity: 1; transform: scale(1); }
+      20.5% { opacity: 1; transform: scale(1); }
+      23.5% { opacity: 0; transform: scale(0.3); }
+      100% { opacity: 0; transform: scale(0.3); }
+    }
+    @keyframes labelFade0 {
+      0% { opacity: 1; }
+      20.5% { opacity: 1; }
+      23.5% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes ghostEat1 {
+      0% { opacity: 1; transform: scale(1); }
+      44.1% { opacity: 1; transform: scale(1); }
+      47.1% { opacity: 0; transform: scale(0.3); }
+      100% { opacity: 0; transform: scale(0.3); }
+    }
+    @keyframes labelFade1 {
+      0% { opacity: 1; }
+      44.1% { opacity: 1; }
+      47.1% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes ghostEat2 {
+      0% { opacity: 1; transform: scale(1); }
+      65.2% { opacity: 1; transform: scale(1); }
+      68.2% { opacity: 0; transform: scale(0.3); }
+      100% { opacity: 0; transform: scale(0.3); }
+    }
+    @keyframes labelFade2 {
+      0% { opacity: 1; }
+      65.2% { opacity: 1; }
+      68.2% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    @keyframes ghostEat3 {
+      0% { opacity: 1; transform: scale(1); }
+      86.4% { opacity: 1; transform: scale(1); }
+      89.4% { opacity: 0; transform: scale(0.3); }
+      100% { opacity: 0; transform: scale(0.3); }
+    }
+    @keyframes labelFade3 {
+      0% { opacity: 1; }
+      86.4% { opacity: 1; }
+      89.4% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+  </style>
+</defs>
+
+<rect x="0" y="0" width="960" height="170" rx="14" fill="url(#pmBg)" stroke="#4a2b7a" stroke-width="1.5"/>
+<text x="24" y="30" class="sans" font-size="15" font-weight="700" fill="#f5f0ff">Skills Devoured &#128126;</text>
+
+<line x1="50" y1="95" x2="900" y2="95" stroke="#3a2160" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <circle cx="60" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat0 9.0s linear infinite;"/>
+  <circle cx="82" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat1 9.0s linear infinite;"/>
+  <circle cx="104" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat2 9.0s linear infinite;"/>
+  <circle cx="126" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat3 9.0s linear infinite;"/>
+  <circle cx="148" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat4 9.0s linear infinite;"/>
+  <circle cx="170" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat5 9.0s linear infinite;"/>
+  <circle cx="192" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat6 9.0s linear infinite;"/>
+  <circle cx="214" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat7 9.0s linear infinite;"/>
+  <circle cx="280" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat8 9.0s linear infinite;"/>
+  <circle cx="302" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat9 9.0s linear infinite;"/>
+  <circle cx="324" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat10 9.0s linear infinite;"/>
+  <circle cx="346" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat11 9.0s linear infinite;"/>
+  <circle cx="368" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat12 9.0s linear infinite;"/>
+  <circle cx="390" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat13 9.0s linear infinite;"/>
+  <circle cx="412" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat14 9.0s linear infinite;"/>
+  <circle cx="500" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat15 9.0s linear infinite;"/>
+  <circle cx="522" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat16 9.0s linear infinite;"/>
+  <circle cx="544" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat17 9.0s linear infinite;"/>
+  <circle cx="566" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat18 9.0s linear infinite;"/>
+  <circle cx="588" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat19 9.0s linear infinite;"/>
+  <circle cx="676" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat20 9.0s linear infinite;"/>
+  <circle cx="698" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat21 9.0s linear infinite;"/>
+  <circle cx="720" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat22 9.0s linear infinite;"/>
+  <circle cx="742" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat23 9.0s linear infinite;"/>
+  <circle cx="764" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat24 9.0s linear infinite;"/>
+  <circle cx="852" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat25 9.0s linear infinite;"/>
+  <circle cx="874" cy="95" r="3" fill="#e8d8ff" style="animation: dotEat26 9.0s linear infinite;"/>
+
+  <g style="animation: ghostEat0 9.0s linear infinite; transform-origin: 250px 93px;" transform="translate(250,93)">
+    <path d="M -15,4 A15,15 0 1,1 15,4 L15,15 Q10.5,8 6,15 Q1.5,8 -3,15 Q-7.5,8 -12,15 Q-15,8 -15,4 Z" fill="#ff6ec7"/>
+    <circle cx="-5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="-4.5" cy="-1" r="2" fill="#221238"/>
+    <circle cx="6.5" cy="-1" r="2" fill="#221238"/>
+  </g>
+  <text x="250" y="129" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#e8d8ff" style="animation: labelFade0 9.0s linear infinite;">design system</text>
+  <g style="animation: ghostEat1 9.0s linear infinite; transform-origin: 450px 93px;" transform="translate(450,93)">
+    <path d="M -15,4 A15,15 0 1,1 15,4 L15,15 Q10.5,8 6,15 Q1.5,8 -3,15 Q-7.5,8 -12,15 Q-15,8 -15,4 Z" fill="#a855f7"/>
+    <circle cx="-5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="-4.5" cy="-1" r="2" fill="#221238"/>
+    <circle cx="6.5" cy="-1" r="2" fill="#221238"/>
+  </g>
+  <text x="450" y="129" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#e8d8ff" style="animation: labelFade1 9.0s linear infinite;">design thinking</text>
+  <g style="animation: ghostEat2 9.0s linear infinite; transform-origin: 630px 93px;" transform="translate(630,93)">
+    <path d="M -15,4 A15,15 0 1,1 15,4 L15,15 Q10.5,8 6,15 Q1.5,8 -3,15 Q-7.5,8 -12,15 Q-15,8 -15,4 Z" fill="#c084fc"/>
+    <circle cx="-5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="-4.5" cy="-1" r="2" fill="#221238"/>
+    <circle cx="6.5" cy="-1" r="2" fill="#221238"/>
+  </g>
+  <text x="630" y="129" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#e8d8ff" style="animation: labelFade2 9.0s linear infinite;">vibecode</text>
+  <g style="animation: ghostEat3 9.0s linear infinite; transform-origin: 810px 93px;" transform="translate(810,93)">
+    <path d="M -15,4 A15,15 0 1,1 15,4 L15,15 Q10.5,8 6,15 Q1.5,8 -3,15 Q-7.5,8 -12,15 Q-15,8 -15,4 Z" fill="#f472b6"/>
+    <circle cx="-5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="5.5" cy="-2" r="4" fill="#fff"/>
+    <circle cx="-4.5" cy="-1" r="2" fill="#221238"/>
+    <circle cx="6.5" cy="-1" r="2" fill="#221238"/>
+  </g>
+  <text x="810" y="129" text-anchor="middle" class="sans" font-size="12" font-weight="600" fill="#e8d8ff" style="animation: labelFade3 9.0s linear infinite;">user flows</text>
+
+<!-- pac-man -->
+<g class="pac-move">
+  <g transform="translate(0,95)">
+    <path fill="#FFD23F" d="M 0,0 L 15.4,-9.7 A18,18 0 1,0 15.4,9.7 Z">
+      <animate attributeName="d" dur="0.3s" repeatCount="indefinite"
+        values="M 0,0 L 15.4,-9.7 A18,18 0 1,0 15.4,9.7 Z;
+                M 0,0 L 17.9,-1.6 A18,18 0 1,0 17.9,1.6 Z;
+                M 0,0 L 15.4,-9.7 A18,18 0 1,0 15.4,9.7 Z"/>
+    </path>
+    <circle cx="-2" cy="-11" r="2.4" fill="#221238"/>
+  </g>
+  <text x="0" y="69" text-anchor="middle" class="sans" font-size="12" font-weight="700" fill="#FFD23F">me</text>
+</g>
+
+</svg>
